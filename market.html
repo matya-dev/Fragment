@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <img src="assets/market.gif" alt="Fragment" class="logo-img">
+                <h1 class="logo-text">Fragment</h1>
+            </div>
+            <h2 class="subtitle">Магазин подарков</h2>
+        </header>
+
+        <main class="main-content">
+            <div class="market-grid" id="market-container">
+            </div>
+        </main>
+
+        <div class="glass-nav">
+            <div class="nav-buttons">
+                <button class="nav-btn" data-page="gifts">
+                    <i class="fas fa-gift"></i>
+                    <span>Подарки</span>
+                </button>
+                <button class="nav-btn active" data-page="market">
+                    <i class="fas fa-store"></i>
+                    <span>Магазин</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="stars-counter">
+            <img src="assets/star.png" alt="Star" class="star-icon">
+            <span class="stars-count" id="stars-count">0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
